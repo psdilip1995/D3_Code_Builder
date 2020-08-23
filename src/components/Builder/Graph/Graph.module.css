@@ -1,0 +1,8 @@
+.Graph{
+	width: 90%;
+	height: 400px;
+	margin: 5%;
+	background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px #ccc;
+}

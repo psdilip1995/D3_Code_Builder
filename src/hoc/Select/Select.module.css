@@ -1,0 +1,16 @@
+.Component{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin: 5%;
+}
+
+.Select{
+	width: 50%;
+	text-align: center;
+	padding: 8px 16px;
+}
+
+.Label{
+	padding: 8px 0px;
+}

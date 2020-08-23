@@ -1,0 +1,19 @@
+.InputData{
+	width: 100%;
+	border-bottom: 10px solid white;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.error{
+	color: red;
+	margin : auto;
+}
+
+.UploadBtnDiv{
+	font-size: 0.75em
+}
+
+.TextboxDiv{
+
+}

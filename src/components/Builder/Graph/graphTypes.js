@@ -1,0 +1,6 @@
+export const VERTICAL_BAR_CHART = 'VERTICAL_BAR_CHART';
+export const HORIZONTAL_BAR_CHART = 'HORIZONTAL_BAR_CHART';
+export const HISTOGRAM = 'HISTOGRAM';
+export const PIE_CHART = 'PIE_CHART';
+export const SCATTER_PLOT = 'SCATTER_PLOT';
+export const LINE_CHART = 'LINE_CHART';

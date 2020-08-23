@@ -1,0 +1,18 @@
+.CodeSnippet{
+	border: 1px solid;
+	margin-top: 10px;
+	flex: 1 1 auto;
+	padding: 10px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.CodeSnippet::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.CodeSnippet {
+  -ms-overflow-style: none;
+}

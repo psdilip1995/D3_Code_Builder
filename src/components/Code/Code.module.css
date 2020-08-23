@@ -1,0 +1,9 @@
+.Code{
+	flex-grow: 1;
+	background-color: #ccc;
+	margin: 20px;
+	min-width: 450px;
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+}

@@ -4,9 +4,27 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import builderReducer from './store/reducers/builder';
+import codeReducer from './store/reducers/code';
+import { Provider } from 'react-redux';
+import { createStore ,combineReducers } from 'redux';
+
+const rootReducer = combineReducers({
+	builder: builderReducer,
+	code: codeReducer
+});
+
+const store = createStore(rootReducer);
+
+const app = (
+	<Provider store={store}>
+		<App/>
+	</Provider>
+);
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {app}
   </React.StrictMode>,
   document.getElementById('root')
 );
